@@ -92,12 +92,12 @@ else
 }
 
 
-
+// Metod 
 int PlayerSp()
 {
     Console.WriteLine($"choose your strength! from 0 - {Psp}:");
     int UsedPsp = int.Parse(Console.ReadLine());
-    if (UsedPsp > 0 && UsedPsp <= Psp)
+    if (UsedPsp > -1 && UsedPsp <= Psp)
     {
         Psp -= UsedPsp;
         return UsedPsp;
@@ -140,3 +140,4 @@ int Rounds(ref int x, int UsedPsp, int UsedCsp, ref int y)
         return y;
     }
 }
+
