@@ -75,7 +75,7 @@ if (choice == "Y")
     }
 
 }
-else if (choice == "2")
+else if (choice == "N")
 {
     Console.WriteLine("Life passes you by and you die alone....");
 }
